@@ -15,7 +15,6 @@ class App extends Component {
   componentDidMount() {
     YTSearch({key: API_KEY, term: 'cat'}, (videos) => {
       this.setState({videos})
-      console.log(videos)
     });
   }
 
