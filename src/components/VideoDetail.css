@@ -1,6 +1,25 @@
-.video-details .details {
+.video-detail .details {
     margin-top: 10px;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
+}
+
+.embed-responsive-item {
+    max-width: 100%;
+    border: none;
+    margin-top: 15px;
+}
+
+.embed-responsive {
+    position:relative;
+    width:100%;
+    padding-bottom:56.25%;
+}
+.embed-responsive-item {
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
 }

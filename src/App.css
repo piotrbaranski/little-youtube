@@ -1,0 +1,9 @@
+@media screen and (min-width: 768px) {
+    .flex-container {
+        display: flex;
+    }
+
+    .flex-item {
+        flex: 1;
+    }
+}
