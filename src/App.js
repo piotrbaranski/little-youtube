@@ -12,12 +12,12 @@ const API_KEY = 'AIzaSyDo0LvUfwYc1cQu08fklNVOTnLadLp8UXo';
 
 class App extends Component {
 
-  constructor(props) {
-    super(props)
-    this.state = {
-      videos: [],
-      selectedVideo: null
-    }
+  state = {
+    videos: [],
+    selectedVideo: null
+  }
+
+  componentDidMount() {
     this.videoSearch('cats')
   }
 
